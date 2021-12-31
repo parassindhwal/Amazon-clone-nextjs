@@ -10,12 +10,12 @@ export default NextAuth({
     }),
     // ...add more providers here
   ],
-  pages: {
-      signIn: '/auth/signin',
+  // pages: {
+  //     signIn: '/auth/signin',
     //  signOut: '/auth/signout',
   //   error: '/auth/error', // Error code passed in query string as ?error=
   //   verifyRequest: '/', // (used for check email message)
   //   newUser: '/' // New users will be directed here on first sign in (leave the property out if not of interest)
-   }
+  //  }
 
 })
